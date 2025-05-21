@@ -68,26 +68,18 @@ video {
   } 
 
   #udvozlo {
-  position: relative;
-  font-size:3rem;
-  color: white;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 10, 10);
-  margin-left: -400px;
-  text-align: center;
-  top: -300px;
-  left: 500px;
-  z-index: 2;
+    position: absolute;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 10, 0.5);
+    text-align: center;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
   }
-
-  .container {
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-  }
-
+  
   .menu-link {
     display: inline-block;
     padding: 25px 20px;
@@ -102,7 +94,39 @@ video {
 }
 
 .menu-link:hover {
-    color: red; /* csak a szöveg színe változik */
-    background-color: black; /* háttér marad fekete */
+    color: red;
+    background-color: black;
 }
   
+.profile-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.overlay {
+  position: absolute;
+  top: 250px;
+  left: -100px;
+  width: 3000px;
+  background-color: rgba(87, 87, 87, 0.842);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
