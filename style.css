@@ -7,3 +7,63 @@ video {
     object-fit: cover;
     z-index: -1;
   }
+
+  #Versenyek {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Sportautóink {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Kollekciónk {
+    position: absolute;
+    top: 0px;
+    left: 460px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Élmények {
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Rólunk {
+    position: absolute;
+    top: 0px;
+    left: 725px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  #Ferrari-logo {
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: white;
+    width: 100px;
+  }
