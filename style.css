@@ -60,21 +60,49 @@ video {
 
   #Ferrari-logo {
     position: absolute;
-    top: -20px;
     left: 40px;
     transform: translateX(-50%);
     z-index: 1;
     color: white;
     width: 100px;
-  }
+  } 
 
   #udvozlo {
-    position: absolute;
-    top: 250px;
-    left: 700px;
-    transform: translateX(-50%);
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-    z-index: 2;
-    text-align: center;
+  position: relative;
+  font-size:3rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 10, 10);
+  margin-left: -400px;
+  text-align: center;
+  top: -300px;
+  left: 500px;
+  z-index: 2;
   }
+
+  .container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  }
+
+  .menu-link {
+    display: inline-block;
+    padding: 25px 20px;
+    margin: 20px;
+    margin-left: 80px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    color: red; /* csak a szöveg színe változik */
+    background-color: black; /* háttér marad fekete */
+}
+  
