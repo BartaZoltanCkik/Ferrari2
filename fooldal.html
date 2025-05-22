@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferrari főoldal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrari főoldal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="kepek-videok/Ferrari video.mp4" type="video/mp4">
-        Ezt a videót nem lehet lejátszani a te böngésződben.
-      </video>
-      
+  <video autoplay muted loop>
+    <source src="kepek-videok/Ferrari video.mp4" type="video/mp4">
+    Ezt a videót nem lehet lejátszani a te böngésződben.
+  </video>
+  
+  <div class="d-none d-sm-block desktop-nav">
+    <div class="menu-items">
+      <a href="Versenyek.html" class="menu-link"><h5>Versenyek</h5></a>
+      <a href="Sportautoink.html" class="menu-link"><h5>Sportautóink</h5></a>
+      <a href="Kollekcionk.html" class="menu-link"><h5>Kollekciónk</h5></a>
+      <a href="Elmenyek.html" class="menu-link"><h5>Élmények</h5></a>
+      <a href="Rolunk.html" class="menu-link"><h5>Rólunk</h5></a>
+    </div>
 
-      <a href="Versenyek.html" class="menu-link"> <h6>Versenyek</h6> </a>
-      <a href="Sportautoink.html" class="menu-link"> <h6>Sportautóink</h6> </a>
-      <a href="Kollekcionk.html" class="menu-link"> <h6>Kollekciónk</h6> </a>
-      <a href="Elmenyek.html" class="menu-link"> <h6>Élmények</h6> </a>
-      <a href="Rolunk.html" class="menu-link"><h6>Rólunk</h6> </a>
-
-
+    <a href="fooldal.html">
       <img id="Ferrari-logo" src="kepek-videok/Ferrari-logo.png" alt="Ferrari-logo">
-
-      
-      <p id="udvozlo">Üdvözlünk a <br> Ferrari Magyarország oldalán!</p>
-      
+    </a>
+  </div>
+  
+  <div class="d-block d-sm-none container-fluid p-0 mobile-nav">
+    <div class="row align-items-center p-2">
+      <div class="col-3">
+        <a href="fooldal.html">
+          <img id="Ferrari-logo-mobile" src="kepek-videok/Ferrari-logo.png" alt="Ferrari logo" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-6 text-end">
+            <a href="Versenyek.html" class="menu-link"><h4>Versenyek</h4></a>
+          </div>
+          <div class="col-6 text-start">
+            <a href="Sportautoink.html" class="menu-link"><h4>Sportautóink</h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-4">
+        <a href="Kollekcionk.html" class="menu-link"><h4>Kollekciók</h4></a>
+      </div>
+      <div class="col-4">
+        <a href="Elmenyek.html" class="menu-link"><h4>Élmények</h4></a>
+      </div>
+      <div class="col-4">
+        <a href="Rolunk.html" class="menu-link"><h4>Rólunk</h4></a>
+      </div>
+    </div>
+  </div>
+  
+  <p id="udvozlo">Üdvözlünk a <br> Ferrari Magyarország oldalán!</p>
+  
   <div class="profile-container">
     <img src="kepek-videok/gergoprofil" alt="Profilkép 1" class="profile-pic">
     <img src="kepek-videok/zoliprofil1.jpg" alt="Profilkép 2" class="profile-pic">
   </div>
-
-
-      
 </body>
 </html>
