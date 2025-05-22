@@ -60,6 +60,7 @@ video {
 
   #Ferrari-logo {
     position: absolute;
+    top: -10px;
     left: 40px;
     transform: translateX(-50%);
     z-index: 1;
@@ -82,7 +83,7 @@ video {
   
   .menu-link {
     display: inline-block;
-    padding: 25px 20px;
+    padding: 15px 20px;
     margin: 20px;
     margin-left: 80px;
     background-color: black;
@@ -118,14 +119,3 @@ video {
 }
 
 
-.custom-navbar {
-  transition: all 0.3s ease-in-out;
-  padding-top: 20px;
-}
-
-@media (min-height: 900px) and (min-width: 1200px) {
-  .custom-navbar {
-    padding-top: 5px;
-    background-color: #f8f9fa;
-  }
-}

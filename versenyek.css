@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+ 
+  .nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 1000;
+  }
+ 
+  .nav a p {
+    margin: 0;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+ 
+  .nav a p:hover {
+    color: red;
+    background-color: black;
+  }
+ 
+  #Ferrari-logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 60px;
+  }
+ 
+  .tartalom {
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .tartalom h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff0000;
+  }
+ 
+  .tartalom h2 {
+    margin-top: 30px;
+    color: #ff4444;
+  }
+ 
+  .tartalom p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+ 
+  .tartalom img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff0000;
+  }
+
+ 
+  body {
+    background-image: url(kepek-videok/ferrari_verseny.jpg); /* elérési út a képedhez */
+    background-size: cover;         /* kitölti az egész képernyőt */
+    background-position: center;    /* középre igazítja a képet */
+    background-repeat: no-repeat;   /* ne ismétlődjön */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+  #versenyek_kepek {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+  }
+ 
+
+  #Versenyek {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Sportautóink {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Kollekciónk {
+    position: absolute;
+    top: 0px;
+    left: 460px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Élmények {
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+  
+  #Rólunk {
+    position: absolute;
+    top: 0px;
+    left: 725px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  #Ferrari-logo {
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: white;
+    width: 100px;
+  } 
+
+  .menu-link {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 20px;
+    margin-left: 80px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    color: red;
+    background-color: black;
+}
