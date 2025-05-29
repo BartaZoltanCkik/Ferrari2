@@ -1,0 +1,128 @@
+/* Alap betűtípus és színek */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.btn-danger,
+.btn-success {
+  background-color: transparent !important;
+  color: black !important;
+  border: 2px solid black !important;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover,
+.btn-success:hover {
+  background-color: black !important;
+  color: white !important;
+  border-color: black !important;
+}
+
+
+/* Checkout doboz stílusa */
+.checkout-box {
+  max-width: 140px;
+}
+.checkout-box i {
+  color: #28a745;
+  transition: color 0.3s ease;
+}
+.checkout-box i:hover {
+  color: #1e7e34;
+}
+.checkout-box button {
+  font-weight: 600;
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+}
+
+/* Termék kártya stílusa */
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  border-bottom: 1px solid #ddd;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.card-body {
+  padding: 1.25rem 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #b71c1c;
+}
+
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #28a745;
+}
+
+
+@media (max-width: 576px) {
+  .checkout-box {
+    max-width: 100px;
+  }
+}
+ 
+.top-logo {
+  padding: 10px 0;
+  text-align: center
+  ;
+}
+
+.top-logo img {
+  height: 120px;   
+  width: auto;     
+  display: inline-block;
+}
+
+.checkout-box {
+  position: relative; 
+}
+
+.cart-badge {
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+}
+
+#elfogyott {
+    font-size: medium;
+    font-weight: 700;
+    color: #b71c1c;
+}
+
+.top-right-menu .btn {
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  width: 150px;  
+  text-align: center;
+}
+
+.top-right-menu .btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}

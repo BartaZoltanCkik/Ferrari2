@@ -1,11 +1,168 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kollekciónk</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferrari Kollekciók</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="kollekcio.css" />
 </head>
 <body>
-    
+
+
+
+    <div class="top-right-menu d-flex flex-column position-fixed" style="top: 20px; right: 20px; z-index: 1050;">
+ <a href="fooldal.html" class="btn btn-outline-dark mb-2">Kezdőlap</a>
+    <a href="Versenyek.html" class="btn btn-outline-dark mb-2">Versenyek</a>
+  <a href="Sportautoink.html" class="btn btn-outline-dark mb-2">Sportautóink</a>
+  <a href="Elmenyek.html" class="btn btn-outline-dark mb-2">Élmények</a>
+  <a href="Rolunk.html" class="btn btn-outline-dark">Rólunk</a>
+</div>
+
+
+    <header class="top-logo">
+  <img src="kepek-videok/pumaferraribgrem-removebg-preview.png" alt="Ferrari Puma logo" />
+</header>
+
+  <div class="container py-5">
+    <header class="d-flex justify-content-between align-items-center mb-4">
+      <div class="dropdown">
+        <button
+          class="btn btn-danger dropdown-toggle"
+          type="button"
+          id="menuDropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Kollekciók
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+          <li><a class="dropdown-item" href="#">Férfi</a></li>
+          <li><a class="dropdown-item" href="#">Női</a></li>
+          <li><a class="dropdown-item" href="#">Gyermek</a></li>
+        </ul>
+      </div>
+      <div class="checkout-box text-center position-relative">
+  <i class="fas fa-shopping-cart fa-2x mb-2"></i>
+  <span class="cart-badge position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></span>
+  <br>
+  <button class="btn btn-success w-100">Checkout</button>
+</div>
+
+    </header>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      <!-- Termékek -->
+      <div class="col">
+        <div class="card product-card shadow-sm">
+          <img
+            src="kepek-videok/plab0004145-ferfi_polo-piros-500x583.jpg"
+            class="card-img-top"
+            alt="Ferrari póló"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Ferrari póló</h5>
+            <p class="price">9.800 Ft</p>
+            <p id="elfogyott">Out of stock!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card shadow-sm">
+          <img
+            src="kepek-videok/ferrari-dzseki.jpg"
+            class="card-img-top"
+            alt="Ferrari dzseki"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Ferrari dzseki</h5>
+            <p class="price">395.999 Ft</p>
+            <button class="btn btn-outline-primary add-to-cart">
+  <i class="fas fa-cart-plus"></i> Kosárba
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card shadow-sm">
+          <img
+            src="kepek-videok/sapka2.jpg"
+            class="card-img-top"
+            alt="Ferrari sapka"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Ferrari sapka</h5>
+            <p class="price">12.499 Ft</p>
+            <button class="btn btn-outline-primary add-to-cart">
+  <i class="fas fa-cart-plus"></i> Kosárba
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card shadow-sm">
+          <img
+            src="kepek-videok/ferrari cipo.webp"
+            class="card-img-top"
+            alt="Ferrari cipő"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Ferrari cipő</h5>
+            <p class="price">82.199 Ft</p>
+            <button class="btn btn-outline-primary add-to-cart">
+  <i class="fas fa-cart-plus"></i> Kosárba
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card shadow-sm">
+          <img
+            src="kepek-videok/taska.jpg"
+            class="card-img-top"
+            alt="Ferrari táska"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Ferrari táska</h5>
+            <p class="price">34.799 Ft</p>
+            <button class="btn btn-outline-primary add-to-cart">
+  <i class="fas fa-cart-plus"></i> Kosárba
+</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card product-card shadow-sm">
+          <img
+            src="kepek-videok/pulover.webp"
+            class="card-img-top"
+            alt="Ferrari pulóver"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Ferrari pulóver</h5>
+            <p class="price">49.999 Ft</p>
+            <button class="btn btn-outline-primary add-to-cart">
+  <i class="fas fa-cart-plus"></i> Kosárba
+</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

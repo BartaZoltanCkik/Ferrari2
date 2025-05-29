@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sportautoink</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ferrari Versenyautóink - CSS Zoom</title>
+<link rel="stylesheet" href="sportautoink.css" />
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+
+    <a href="fooldal.html" class="back-home-btn">Főoldal</a>
+
+    <h1 class="ferrari-title">Ferrari</h1>
+
+
+<!-- Autók checkboxai + zoom container -->
+<input type="checkbox" id="car1" />
+<input type="checkbox" id="car2" />
+<input type="checkbox" id="car3" />
+
+<div class="container">
+
+  <label class="car-card" for="car1">
+    <img src="kepek-videok/novitec-ferrari-sf90-stradale-2022.jpg" alt="Ferrari SF90 Stradale" />
+    <div class="card-body">
+      <h3 class="card-title">Ferrari SF90 Stradale</h3>
+      <p class="card-text">
+        Az SF90 Stradale a Ferrari első sorozatgyártású plug-in hibrid modellje, amely 986 lóerős teljesítményével új mércét állít a szupersportautók világában.
+      </p>
+    </div>
+  </label>
+
+  <label class="car-card" for="car2">
+    <img src="kepek-videok/2019-Ferrari-488-Pista-18.avif" alt="Ferrari 488 Pista" />
+    <div class="card-body">
+      <h3 class="card-title">Ferrari 488 Pista</h3>
+      <p class="card-text">
+        A 488 Pista a Ferrari V8-as motorjának csúcsa, 720 lóerős teljesítménnyel és kiváló aerodinamikai megoldásokkal. Versenypályás használatra fejlesztették.
+      </p>
+    </div>
+  </label>
+
+  <label class="car-card" for="car3">
+    <img src="kepek-videok/ferrari-fxx-k-evo.jpg" alt="Ferrari FXX-K Evo" />
+    <div class="card-body">
+      <h3 class="card-title">Ferrari FXX-K Evo</h3>
+      <p class="card-text">
+        Az FXX-K Evo egy limitált szériás, kizárólag versenypályán használható modell, amely 1050 lóerős teljesítményével a Ferrari technológiai csúcsát képviseli.
+      </p>
+    </div>
+  </label>
+
+</div>
+
+<!-- Kinagyított nézetek -->
+
+<div class="zoomed zoom1">
+  <label for="car1" class="back-btn">Back</label>
+  <img src="kepek-videok/novitec-ferrari-sf90-stradale-2022.jpg" alt="Ferrari SF90 Stradale" />
+  <h2>Ferrari SF90 Stradale</h2>
+  <p>
+    Az SF90 Stradale a Ferrari első sorozatgyártású plug-in hibrid modellje, amely 986 lóerős teljesítményével új mércét állít a szupersportautók világában.
+    Első plug-in hibrid Ferrari
+Az SF90 Stradale a Ferrari első sorozatgyártású plug-in hibrid szupersportautója, amely ötvözi a V8-as turbómotort és három elektromos motort.
+
+986 lóerő teljesítmény
+A hibrid hajtáslánc összteljesítménye 986 lóerő, ami elképesztő gyorsulást és teljesítményt biztosít.
+
+0-100 km/h mindössze 2,5 másodperc alatt
+Ez a szuperautó kevesebb, mint 2,5 másodperc alatt éri el a 100 km/h sebességet, ami páratlan gyorsaságot jelent.
+
+Négykerék-meghajtás és négykerék-kormányzás
+Az SF90 Stradale innovatív módon alkalmazza mind a négy kerék hajtását és kormányzását, így kiváló kezelhetőséget és stabilitást nyújt.
+
+Elektronikus vezetési módok (eSSC)
+A Ferrari fejlett elektronikus stabilitásvezérlő rendszere különböző vezetési módokat kínál, beleértve az elektromos, hibrid és teljesítményre optimalizált módokat is.
+
+Aerodinamikai újítások
+Az autó karosszériáját az aerodinamika maximalizálására tervezték, többek között aktív légterelőkkel és diffúzorokkal a jobb leszorítóerő érdekében.
+
+Intelligens belső tér
+A műszerfal és a középkonzol modern digitális kijelzőkkel van felszerelve, amelyek testre szabhatók és intuitív kezelést biztosítanak.
+
+
+  </p>
+</div>
+
+<div class="zoomed zoom2">
+  <label for="car2" class="back-btn">Back</label>
+  <img src="kepek-videok/2019-Ferrari-488-Pista-18.avif" alt="Ferrari 488 Pista" />
+  <h2>Ferrari 488 Pista</h2>
+  <p>
+    A 488 Pista a Ferrari V8-as motorjának csúcsa, 720 lóerős teljesítményével és kiváló aerodinamikai megoldásokkal. Versenypályás használatra fejlesztették.
+    Versenypályára született
+A Ferrari 488 Pista a 488 GTB továbbfejlesztett változata, kifejezetten a versenypályán nyújtott kimagasló teljesítményre tervezve.
+
+720 lóerős V8-as motor
+Az autó egy 3,9 literes, ikerturbós V8-as motort kapott, amely 720 lóerőt és 770 Nm nyomatékot biztosít – ez a legerősebb V8-as Ferrari sorozatgyártású autóban.
+
+Könnyített karosszéria
+A 488 Pista karbon- és alumínium elemekkel könnyített, így súlya jelentősen csökkent a hagyományos 488 GTB-hez képest.
+
+Aerodinamikai fejlesztések
+Az autó hátsó légterelője és elülső diffúzora jelentősen javítja a leszorítóerőt és a stabilitást nagy sebességnél.
+
+F1-es technológia az utcán
+A 488 Pista olyan technológiákat kapott, mint az aktív felfüggesztés, a fejlett kipörgésgátló rendszer (F1-Trac) és a Side Slip Control (SSC), melyek a versenypályai vezetést segítik.
+
+Gyorsulás és végsebesség
+0-ról 100 km/h-ra mindössze 2,85 másodperc alatt gyorsul, végsebessége pedig meghaladja a 340 km/h-t.
+
+Exkluzív és limitált kiadás
+A Pista neve az olasz „pista” szóból származik, ami versenypályát jelent, utalva az autó versenysportból merített technológiáira és teljesítményére.
+
+
+  </p>
+</div>
+
+<div class="zoomed zoom3">
+  <label for="car3" class="back-btn">Back</label>
+  <img src="kepek-videok/ferrari-fxx-k-evo.jpg" alt="Ferrari FXX-K Evo" />
+  <h2>Ferrari FXX-K Evo</h2>
+  <p>
+    Az FXX-K Evo egy limitált szériás, kizárólag versenypályán használható modell, amely 1050 lóerős teljesítményével a Ferrari technológiai csúcsát képviseli.
+    Kizárólag versenypályára tervezve
+Az FXX-K Evo nem utcai használatra készült, hanem kizárólag versenypályán való vezetésre, és a Ferrari egy speciális program keretében támogatja tulajdonosait a pályán.
+
+1050 lóerős teljesítmény
+A 6,3 literes V12-es motor és az elektromos hajtás kombinációjával az FXX-K Evo összteljesítménye eléri az 1050 lóerőt.
+
+Aerodinamikai mestermű
+Az Evo változat jelentős aerodinamikai fejlesztéseken esett át: hatalmas hátsó szárny, új első légbeömlők és módosított diffúzor segíti a maximális leszorítóerő elérését.
+
+Könnyített karbon-karosszéria
+A karosszéria teljes egészében karbonból készült, így rendkívül könnyű és merev, ami javítja a vezethetőséget és a gyorsulást.
+
+Fejlett elektronikai rendszerek
+Az autóban megtalálhatóak a legmodernebb Ferrari fejlesztések, mint az aktív felfüggesztés, fejlett kipörgésgátló és versenypályára optimalizált menetdinamika.
+
+Limitált példányszám
+Az FXX-K Evo kizárólag egy szűk kör számára elérhető, és Ferrari által szervezett zárt pályanapokon használható.
+
+Inspiráció a LaFerrari-ból
+Az FXX-K Evo a LaFerrari továbbfejlesztett és verseny-specifikus változata, amely a hibrid technológiát és a csúcsteljesítményt ötvözi.
+
+
+  </p>
+</div>
+
 </body>
 </html>
