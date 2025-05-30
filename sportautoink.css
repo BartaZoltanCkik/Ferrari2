@@ -243,4 +243,9 @@ body {
   transform: translateX(-50%);
 }
 
+.kiemelt {
+  font-style: italic;   
+  font-weight: bold; 
+}
+
 
